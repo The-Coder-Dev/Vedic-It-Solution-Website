@@ -23,7 +23,7 @@ const Hero = () => {
                                 </Link>
                             </Button>
 
-                            <Button asChild className='bg-white/20 rounded-none py-5 px-5'>
+                            <Button asChild variant={'ghost'} className='text-muted hover:bg-white/9 hover:text-white duration-300 transition-colors rounded-none py-5 px-5'>
                                 <Link href={"/"}>
                                     About Us
                                 </Link>
@@ -39,10 +39,10 @@ const Hero = () => {
                     src={"/hero.png"}
                     fill
                     alt='hero'
-                    objectFit='cover'
+                    
                     quality={100}
                     priority
-                    className='select-none pointer-events-none'
+                    className='select-none pointer-events-none object-cover'
                 />
             </div>
         </section>

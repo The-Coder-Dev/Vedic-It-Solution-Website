@@ -32,15 +32,25 @@ const Footer = () => {
 
                 <div className="w-full flex items-center justify-between">
                     <div className="flex gap-2 items-center jusitfy-center">
-                        <h1 className='text-white text-xl '>Vedic</h1>
-                        <p className='text-white'> ©2026. All Rights Reserved</p>
+                        <h1 className='text-muted/40 text-md '>
+                            Vedic IT Solutions
+                            </h1>
+                        <p className='text-muted/40 text-sm'>
+                             ©2026. All Rights Reserved
+                        </p>
                     </div>
 
                     <div className="flex gap-3 items-center justify-center ">
-                        <Snowflake size={40} className='bg-white/10 text-white hover:text-white hover:bg-white/40 transition-all duration-300 rounded-full p-2'/>
-                        <Snowflake size={40} className='bg-white/10 text-white hover:text-white hover:bg-white/40 transition-all duration-300 rounded-full p-2'/>
-                        <Snowflake size={40} className='bg-white/10 text-white hover:text-white hover:bg-white/40 transition-all duration-300 rounded-full p-2'/>
-                        
+                        <Link href={"www.instagram.com"}>
+                            <div className="bg-white/90 p-2 transition-colors duration-300 rounded-full hover:bg-white/50">
+                                <Image src={"/svg/instagram.svg"} width={15} height={16} alt='instagram' className='' />
+                            </div>
+                        </Link>
+                        <Link href={"www.instagram.com"}>
+                            <div className="bg-white/90 p-2 transition-colors duration-300 rounded-full hover:bg-white/50">
+                                <Image src={"/svg/facebook.svg"} width={15} height={16} alt='instagram' className='' />
+                            </div>
+                        </Link>
                     </div>
                 </div>
 
@@ -48,7 +58,7 @@ const Footer = () => {
             </section>
 
             <div className='w-full bg-black/50 absolute inset-0 z-2' />
-            <Image src={"/hero.png"} fill objectFit='cover' alt='footerImg' />
+            <Image src={"/hero.png"} fill className='object-cover' alt='footerImg' />
 
         </section>
     )
