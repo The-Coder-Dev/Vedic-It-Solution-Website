@@ -1,22 +1,13 @@
-'use client'
+
 import Image from 'next/image'
-import React from 'react'
 import { Button } from '../ui/button'
 import Link from 'next/link'
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from 'react'
+
 
 const Hero = () => {
-    const ref = useRef(null);
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ["start start", "end start"]
-    });
 
-    const hero = useTransform(scrollYProgress, [0, 1], ["0", "60%"]);
-    const about = useTransform(scrollYProgress, [0, 1], ["0", "-1%"])
     return (
-        <section className='w-full h-screen relative' ref={ref}>
+        <section className='w-full h-screen' >
             <div className="w-full h-full  flex items-end justify-center mx-auto max-w-345 py-20">
                 <section className='absolute z-99'>
                     <div className="flex flex-col gap-4 items-center ">

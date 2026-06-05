@@ -32,11 +32,12 @@ const Navbar = () => {
           {isOpen ? <X /> : <Menu />}
         </Button>
 
-        <div className="flex items-center justify-center gap-4">
+    {/* Desktop menu */}
+        <div className="hidden md:flex items-center justify-center gap-4">
           <div className="flex gap-4 items-center justify-center  ">
             {navLinks.map((item) => (
-              <Button asChild variant={"ghost"} className="text-muted hover:bg-muted/10 hover:text-muted transition-all duration-300 ">
-                <Link href={item.url} key={item.id}>
+              <Button key={item.id} asChild variant={"ghost"} className="text-muted hover:bg-muted/10 hover:text-muted transition-all duration-300 ">
+                <Link href={item.url} >
                   {item.title}
                 </Link>
               </Button>
@@ -61,9 +62,9 @@ const Navbar = () => {
             transition={{ duration: 0.2 }}
             className="absolute top-18 right-3 w-56 rounded-2xl bg-white backdrop-blur-md shadow-xl p-4 flex flex-col gap-3 md:hidden"
           >
-            {navLinks.map((item) => (
+            {navLinks.map((item, id) => (
               <Link
-                key={item.id}
+                key={id}
                 href={item.url}
                 className="px-3 py-2 rounded-lg hover:bg-primary text-black hover:text-white transition-colors"
                 onClick={() => setIsOpen(false)}

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import LenisScroll from "@/components/LenisScroll";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   variable: "--font-geist-sans",
@@ -26,10 +27,11 @@ export default function RootLayout({
       lang="en"
       className={`${inter.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-scree flex flex-col overflow-x-hidden">
           <LenisScroll />
           <Navbar />
           {children}
+          <Footer />
       </body>
     </html>
   );
