@@ -37,7 +37,7 @@ const Navbar = () => {
         </Button>
 
         {/* Desktop menu */}
-        <div className="flex gap-3">
+        <div className=" gap-3 hidden md:flex">
           <Menubar />
           <Button asChild className='rounded-none py-5 px-5'>
             <Link href={"/"}>
@@ -193,7 +193,15 @@ const Navbar = () => {
             >
               Contact Us
             </Link>
+
+            <Button asChild className='rounded-xl py-5 px-5'>
+              <Link href={"/"}>
+                Get Started
+              </Link>
+            </Button>
           </motion.div>
+
+
         )}
       </AnimatePresence>
     </header>

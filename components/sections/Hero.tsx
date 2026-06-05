@@ -9,11 +9,11 @@ const Hero = () => {
     return (
         <section className='w-full h-screen' >
             <div className="w-full h-full  flex items-end justify-center mx-auto max-w-345 py-20">
-                <section className='absolute z-99'>
+                <section className='absolute z-99 px-4'>
                     <div className="flex flex-col gap-4 items-center ">
 
-                        <h1 className='text-white text-4xl md:text-6xl uppercase text-center font-semibold'>We help you to<br /> grow your buisness</h1>
-                        <p className='text-muted max-w-sm md:max-w-xl text-center'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
+                        <h1 className='text-white text-2xl md:text-6xl uppercase text-center font-semibold'>We help you to<br /> grow your buisness</h1>
+                        <p className='text-muted text-sm md:text-shadow-md max-w-sm md:max-w-xl text-center'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
 
                         <div className="flex gap-3">
 

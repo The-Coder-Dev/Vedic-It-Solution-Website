@@ -7,7 +7,7 @@ import { Snowflake } from 'lucide-react'
 const Footer = () => {
     return (
         <section className='w-full h-160 bg-amber-700 relative '>
-            <section className='w-full mx-auto max-w-345 flex flex-col items-start justify-between py-15 absolute inset-0 z-3'>
+            <section className='w-full mx-auto max-w-345 flex flex-col items-start justify-between py-15 px-8 absolute inset-0 z-3'>
                 <div className="flex flex-col gap-6">
                     <p className='text-white'>Get Started</p>
                     <h1 className='text-white text-6xl'>Don't scale harder.<br /> Scale smarter.</h1>

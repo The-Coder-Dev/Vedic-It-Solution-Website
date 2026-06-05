@@ -12,7 +12,7 @@ const NumberStats = () => {
                         <p className="text-black uppercase font-semibold"><span className="text-primary">[ {" "}</span>achievements<span className="text-primary"> {" "}]</span></p>
                         <p className="font-semibold">©2025</p>
                     </div>
-                    <h1 className="text-black mt-10 font-semibold uppercase max-w-4xl text-7xl">Results That Speak for Themselves</h1>
+                    <h1 className="text-black mt-10 font-semibold uppercase max-w-4xl text-4xl md:text-7xl">Results That Speak for Themselves</h1>
                     <p className="max-w-xl font-xl  mt-3 text-muted-foreground">Delivering record-breaking results backed by powerful metrics and real impact—because great design drives real growth.</p>
                 </div>
 
