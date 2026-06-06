@@ -1,9 +1,7 @@
-
 import StatsCard from "../StatsCard"
 
+
 const NumberStats = () => {
-
-
     return (
         <section className='w-full h-auto  '>
             <div className="h-full w-full mx-auto max-w-345 md:py-10 flex justify-between flex-col gap-5">
