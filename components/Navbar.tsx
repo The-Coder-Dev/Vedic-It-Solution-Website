@@ -10,10 +10,10 @@ import Menubar from "./Menubar"
 
 const navLinks = [
   { title: "Home", url: "/", id: "1" },
-  { title: "About Us", url: "/", id: "2" },
+  { title: "About Us", url: "/about-us", id: "2" },
   { title: "Services", url: "/", id: "3" },
   { title: "On Board", url: "/", id: "4" },
-  { title: "Contact Us", url: "/", id: "5" }
+  { title: "Contact Us", url: "/contact-us", id: "5" }
 ]
 
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className=" gap-3 hidden md:flex">
           <Menubar />
           <Button asChild className='rounded-none py-5 px-5'>
-            <Link href={"/"}>
+            <Link href={"/contact-us"}>
               Get Started
             </Link>
           </Button>
@@ -70,7 +70,7 @@ const Navbar = () => {
 
             {/* About */}
             <Link
-              href="/about"
+              href="/about-us"
               className="px-3 py-2 rounded-lg  hover:bg-white/13 text-white duration-300 transition-colors"
               onClick={() => setIsOpen(false)}
             >
@@ -187,7 +187,7 @@ const Navbar = () => {
 
             {/* Contact */}
             <Link
-              href="/contact"
+              href="/contact-us"
               className="px-3 py-2 rounded-lg hover:bg-white/13 text-white duration-300 transition-colors"
               onClick={() => setIsOpen(false)}
             >

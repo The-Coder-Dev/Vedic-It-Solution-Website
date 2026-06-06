@@ -36,7 +36,7 @@ export default function Menubar() {
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
             <Link
-              href="/about"
+              href="/about-us"
               className="rounded-full px-4 py-2 text-white hover:text-white hover:bg-white/10 transition-all duration-300"
             >
               About Us
@@ -150,7 +150,7 @@ export default function Menubar() {
         <NavigationMenuItem>
           <NavigationMenuLink asChild>
             <Link
-              href="/contact"
+              href="/contact-us"
               className="rounded-full px-4 py-2 text-white hover:bg-white/10 hover:text-white transition-all duration-300"
             >
               Contact Us

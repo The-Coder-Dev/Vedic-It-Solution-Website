@@ -23,9 +23,9 @@ const Footer = () => {
             <motion.section style={{ y: ctaSection }} className="w-full  h-screen relative">
                 <div className="mx-auto max-w-345 flex py-14 px-8 w-full items-center justify-center h-full relative z-5">
                     <div className=" ">
-                        <h1 className='mx-auto  text-gray-300 text-6xl font-semibold uppercase text-left'>Let's Build Something</h1>
+                        <h1 className='mx-auto  text-gray-300 text-3xl md:text-6xl font-semibold uppercase text-left'>Let's Build Something</h1>
                         <DecryptedText
-                            className='mx-auto text-white text-9xl font-bold uppercase'
+                            className='mx-auto text-white text-4xl md:text-9xl font-bold uppercase'
                             text="EXTRA ORDINARY"
                             animateOn='view'
                             revealDirection='start'
@@ -88,12 +88,12 @@ const Footer = () => {
                         </div>
 
                         <div className="flex gap-3 items-center justify-center ">
-                            <Link href={"www.instagram.com"}>
+                            <Link href={"https://www.instagram.com/vedicitsolutions/"} target='_blank'>
                                 <div className="bg-white/90 p-2 transition-colors duration-300 rounded-full hover:bg-white/50">
                                     <Image src={"/svg/instagram.svg"} width={15} height={16} alt='instagram' className='' />
                                 </div>
                             </Link>
-                            <Link href={"www.instagram.com"}>
+                            <Link href={"https://www.facebook.com/profile.php?id=61583642414776#"} target='_blank'> 
                                 <div className="bg-white/90 p-2 transition-colors duration-300 rounded-full hover:bg-white/50">
                                     <Image src={"/svg/facebook.svg"} width={15} height={16} alt='instagram' className='' />
                                 </div>

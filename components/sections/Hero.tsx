@@ -23,23 +23,23 @@ const Hero = () => {
         <section className='w-full h-[200vh] relative' ref={ref}>
             {/* Hero section */}
             <motion.section style={{y: hero}} className='w-full h-screen relative' >
-                <div className="w-full h-full  flex items-end justify-center mx-auto max-w-345 py-20">
-                    <section className='absolute z-99 px-4'>
-                        <div className="flex flex-col gap-4 items-center ">
+                <div className="w-full h-full flex items-end justify-start mx-auto max-w-345 py-20">
+                    <section className='absolute z-99 px-7'>
+                        <div className="flex flex-col gap-4 items-start ">
 
-                            <h1 className='text-white text-2xl md:text-6xl uppercase text-center font-semibold'>We help you to<br /> grow your buisness</h1>
-                            <p className='text-muted text-sm md:text-shadow-md max-w-sm md:max-w-xl text-center'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
+                            <h1 className='text-white text-5xl md:text-8xl uppercase text-left font-semibold'><span className='text-gray-400'>More than marketing.</span> <br /> driving growth.</h1>
+                            <p className='text-muted text-md md:text-shadow-md max-w-sm md:max-w-xl text-left'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
 
-                            <div className="flex gap-3">
+                            <div className="flex gap-3 mt-5">
 
                                 <Button asChild className='rounded-none py-5 px-5'>
-                                    <Link href={"/"}>
+                                    <Link href={"/contact-us"}>
                                         Get Started
                                     </Link>
                                 </Button>
 
                                 <Button asChild variant={'ghost'} className='text-muted hover:bg-white/9 hover:text-white duration-300 transition-colors rounded-none py-5 px-5'>
-                                    <Link href={"/"}>
+                                    <Link href={"/about-us"}>
                                         About Us
                                     </Link>
                                 </Button>
