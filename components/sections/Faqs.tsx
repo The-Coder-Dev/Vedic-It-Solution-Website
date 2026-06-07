@@ -183,7 +183,7 @@ const Faqs = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-16 md:mt-24 p-8 md:p-12 rounded-lg border border-primary/20 bg-gradient-to-r from-primary/5 to-secondary/5"
+          className="mt-16 md:mt-24 p-8 md:p-12 rounded-lg border border-primary/20 bg-linear-to-r from-primary/5 to-secondary/5"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
