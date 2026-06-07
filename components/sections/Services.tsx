@@ -13,8 +13,8 @@ const Services = () => {
                 [ {" "}</span>Services<span className="text-primary"> {" "}]
                 </span></p>
 
-                <h1 className='text-7xl text-white uppercase font-semibold mt-10'>Our<br /> Services</h1>
-                <p className='text-gray-300 max-w-sm'>Everything you need to know about our services, process, and what to expect.</p>
+                <h1 className='text-5xl md:text-7xl text-white uppercase font-semibold mt-10'>Our<br /> Services</h1>
+                <p className='text-gray-300 max-w-sm mt-3'>Everything you need to know about our services, process, and what to expect.</p>
             </div>
 
            {/* Services Section */}
@@ -24,8 +24,8 @@ const Services = () => {
                         <div className="bg-white rounded-full w-fit h-fit mb-5 p-4">
                             <TrendingUp  size="29" className='text-primary'/>
                         </div>
-                        <div className="flex flex-col gap-10 pb-8 ">
-                            <h1 className='uppercase text-5xl font-bold text-white'>Meta Ads</h1>
+                        <div className="flex flex-col gap-3 md:gap-10 pb-8 ">
+                            <h1 className='uppercase text-4xl md:text-5xl font-bold text-white'>Meta Ads</h1>
                             <p className='text-gray-400 max-w-md'>From social media graphics to business presentations, every design serves a purpose.</p>
                         </div>
                     </div>
@@ -34,8 +34,8 @@ const Services = () => {
                         <div className="bg-white rounded-full w-fit mb-5 h-fit  p-4">
                             <MousePointerClick  size="29" className='text-primary'/>
                         </div>
-                        <div className="flex flex-col gap-10 pb-8 ">
-                            <h1 className='uppercase text-5xl font-bold text-white'>Google Ads</h1>
+                        <div className="flex flex-col gap-3 md:gap-10 pb-8 ">
+                            <h1 className='uppercase text-4xl md:text-5xl font-bold text-white'>Google Ads</h1>
                             <p className='text-gray-400 max-w-md'>From social media graphics to business presentations, every design serves a purpose.</p>
                         </div>
                     </div>
@@ -44,8 +44,8 @@ const Services = () => {
                         <div className="bg-white rounded-full w-fit h-fit mb-5 p-4">
                             <SplinePointer  size="29" className='text-primary' /> 
                         </div>
-                        <div className="flex flex-col gap-10 pb-8 ">
-                            <h1 className='uppercase text-5xl font-bold text-white'>Graphic Design</h1>
+                        <div className="flex flex-col gap-3 md:gap-10 pb-8 ">
+                            <h1 className='uppercase text-4xl md:text-5xl font-bold text-white'>Graphic Design</h1>
                             <p className='text-gray-400 max-w-md'>From social media graphics to business presentations, every design serves a purpose.</p>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ const Services = () => {
                         <div className="bg-white rounded-full w-fit h-fit mb-5 p-4">
                             <LaptopMinimal size="29" className='text-primary' />
                         </div>
-                        <div className="flex flex-col gap-10 pb-8 ">
-                            <h1 className='uppercase text-5xl font-bold text-white'>Website Developement</h1>
+                        <div className="flex flex-col gap-3 md:gap-10 pb-8 ">
+                            <h1 className='uppercase text-4xl md:text-5xl font-bold text-white'>Website Developement</h1>
                             <p className='text-gray-400 max-w-md'>From social media graphics to business presentations, every design serves a purpose.</p>
                         </div>
                     </div>
@@ -64,8 +64,8 @@ const Services = () => {
                         <div className="bg-white rounded-full w-fit mb-5 h-fit p-4">
                             <Clapperboard size="29" className='text-primary' /> 
                         </div>
-                        <div className="flex flex-col gap-10 pb-8 ">
-                            <h1 className='uppercase text-5xl font-bold text-white'>Video Editing</h1>
+                        <div className="flex flex-col gap-`3 md:gap-10 pb-8 ">
+                            <h1 className='uppercase text-4xl md:text-5xl font-bold text-white'>Video Editing</h1>
                             <p className='text-gray-400 max-w-md'>From social media graphics to business presentations, every design serves a purpose.</p>
                         </div>
                     </div>

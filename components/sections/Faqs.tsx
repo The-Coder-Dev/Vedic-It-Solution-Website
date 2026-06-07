@@ -90,11 +90,7 @@ const Faqs = () => {
     <section className='w-full min-h-screen relative py-20 md:py-32'>
       <div className="w-full mx-auto max-w-345 px-7 md:px-0">
         {/* Header */}
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={headerVariants}
+        <div 
           className="mb-16 md:mb-24"
         >
           <p className="text-black uppercase font-semibold text-sm md:text-base">
@@ -109,29 +105,24 @@ const Faqs = () => {
           <p className='text-muted-foreground max-w-2xl text-base md:text-lg leading-relaxed'>
             Everything you need to know about our services, pricing, and process. Can't find what you're looking for? <span className='text-secondary font-semibold'>Contact us directly</span>.
           </p>
-        </motion.div>
+        </div>
 
         {/* FAQs Grid */}
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={containerVariants}
+        <div
           className="grid md:grid-cols-2 gap-4 md:gap-6"
         >
           {faqData.map((faq) => (
-            <motion.div key={faq.id} variants={itemVariants}>
+            <div key={faq.id} >
               <button
                 onClick={() => setActiveId(activeId === faq.id ? null : faq.id)}
-                className="w-full text-left cursor-pointer"
+                className="w-full text-left cursor-pointer transition-all duration-300"
               >
-                <motion.div
+                <div
                   className={`relative overflow-hidden rounded-lg border transition-all duration-300 ${
                     activeId === faq.id
                       ? 'border-primary bg-primary/5'
                       : 'border-border bg-card/50 hover:border-primary/50 hover:bg-card/80'
                   }`}
-                  whileHover={{ translateY: -2 }}
                 >
                   <div className="p-6 md:p-8">
                     <div className="flex items-start justify-between gap-4">
@@ -140,10 +131,7 @@ const Faqs = () => {
                       }`}>
                         {faq.question}
                       </h3>
-                      <motion.div
-                        variants={chevronVariants}
-                        animate={activeId === faq.id ? "expanded" : "collapsed"}
-                        transition={{ duration: 0.3 }}
+                      <div
                         className='shrink-0 mt-1'
                       >
                         <ChevronDown
@@ -152,37 +140,29 @@ const Faqs = () => {
                             activeId === faq.id ? 'text-primary' : 'text-muted-foreground'
                           }`}
                         />
-                      </motion.div>
+                      </div>
                     </div>
 
                     <AnimatePresence>
                       {activeId === faq.id && (
-                        <motion.div
-                          initial={{ opacity: 0, height: 0 }}
-                          animate={{ opacity: 1, height: "auto" }}
-                          exit={{ opacity: 0, height: 0 }}
-                          transition={{ duration: 0.3 }}
+                        <div
                           className="overflow-hidden"
                         >
                           <p className='text-muted-foreground leading-relaxed pt-4 border-t border-border/30 mt-4'>
                             {faq.answer}
                           </p>
-                        </motion.div>
+                        </div>
                       )}
                     </AnimatePresence>
                   </div>
-                </motion.div>
+                </div>
               </button>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
 
         {/* CTA Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+        <div
           className="mt-16 md:mt-24 p-8 md:p-12 rounded-lg border border-primary/20 bg-linear-to-r from-primary/5 to-secondary/5"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -190,16 +170,14 @@ const Faqs = () => {
               <h2 className='text-2xl md:text-3xl font-semibold text-black mb-2'>Still have questions?</h2>
               <p className='text-muted-foreground'>Our team is here to help. Get in touch with us for a personalized consultation.</p>
             </div>
-            <motion.a
+            <a
               href="/contact-us"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
               className='px-8 py-3 bg-primary text-primary-foreground font-semibold rounded whitespace-nowrap hover:bg-primary/90 transition-colors duration-300'
             >
               Contact Us
-            </motion.a>
+            </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )

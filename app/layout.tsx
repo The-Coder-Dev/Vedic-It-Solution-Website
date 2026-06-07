@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import LenisScroll from "@/components/LenisScroll";
 import Footer from "@/components/Footer";
 
 const inter = Inter({
@@ -28,7 +27,6 @@ export default function RootLayout({
       className={`${inter.className} h-full antialiased`}
     >
       <body className="min-h-scree flex flex-col overflow-x-hidden">
-          <LenisScroll />
           <Navbar />
           {children}
           <Footer />
