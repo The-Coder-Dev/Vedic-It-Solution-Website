@@ -103,7 +103,7 @@ const ContactUs = () => {
                   height="100%"
                   style={{ border: 0 }}
                   loading="lazy"
-                  allowFullScreen=""
+                  allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.7790933119656!2d77.20215097520933!3d28.612912875690253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd288f1bf215%3A0x9f9e6a8b5e8a8b8b!2sNew%20Delhi!5e0!3m2!1sen!2sin!4v1234567890"
                 />
