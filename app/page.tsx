@@ -1,6 +1,7 @@
-
+import Faqs from '@/components/sections/Faqs'
 import Hero from '@/components/sections/Hero'
 import Services from '@/components/sections/Services'
+import Team from '@/components/sections/team'
 import TestimonialSection from '@/components/sections/TestimonialSection'
 
 const Homepage = () => {
@@ -12,7 +13,9 @@ const Homepage = () => {
       <Hero />
       {/* <NumberStats /> */}
       <Services />
+      <Team />
       <TestimonialSection />
+      <Faqs />
     </main>
   )
 }

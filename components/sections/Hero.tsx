@@ -27,8 +27,8 @@ const Hero = () => {
                     <section className='absolute z-99 px-7'>
                         <div className="flex flex-col gap-4 items-start ">
 
-                            <h1 className='text-white text-5xl md:text-8xl uppercase text-left font-semibold'><span className='text-gray-400'>More than marketing.</span> <br /> driving growth.</h1>
-                            <p className='text-muted text-md md:text-shadow-md max-w-sm md:max-w-xl text-left'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
+                            <h1 className='text-white text-5xl md:text-8xl uppercase text-left font-semibold'><span className='text-secondary'>More than marketing.</span> <br /> driving growth.</h1>
+                            <p className='text-secondary text-md md:text-shadow-md max-w-sm md:max-w-xl text-left'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
 
                             <div className="flex gap-3 mt-5">
 
@@ -68,7 +68,7 @@ const Hero = () => {
                     <div className="p-6 mb-30">
                         <div className="border-b pb-8 flex items-center justify-between">
                             <p className="text-black uppercase font-semibold"><span className="text-primary">[ {" "}</span>achievements<span className="text-primary"> {" "}]</span></p>
-                            <p className="font-semibold">©2025</p>
+                            <p className="font-semibold">©2026</p>
                         </div>
                         <h1 className="text-black mt-10 font-semibold uppercase max-w-4xl text-4xl md:text-7xl">Results That Speak for Themselves</h1>
                         <p className="max-w-xl font-xl  mt-3 text-muted-foreground">Delivering record-breaking results backed by powerful metrics and real impact—because great design drives real growth.</p>
