@@ -68,35 +68,35 @@ export default function Menubar() {
             ">
             <ul className="grid w-87.5 gap-2 p-4  backdrop-blur-xl">
               <ListItem
-                href="/services/meta-ads"
+                href="/meta-ads"
                 title="Meta Ads"
               >
                 Facebook & Instagram advertising campaigns.
               </ListItem>
 
               <ListItem
-                href="/services/google-ads"
+                href="/google-ads"
                 title="Google Ads"
               >
                 Search, Display and Performance campaigns.
               </ListItem>
 
               <ListItem
-                href="/services/graphic-design"
+                href="/graphic-design"
                 title="Graphic Design"
               >
                 Branding, creatives and marketing assets.
               </ListItem>
 
               <ListItem
-                href="/services/website-development"
+                href="/web-development"
                 title="Website Development"
               >
                 Modern websites built for conversions.
               </ListItem>
 
               <ListItem
-                href="/services/video-production-editing"
+                href="/video-editing"
                 title="Video Production & Editing"
               >
                 Professional video creation and editing.

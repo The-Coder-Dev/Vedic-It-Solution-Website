@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full h-fit absolute inset-x-0 top-0 z-999">
-      <nav className="w-full flex items-center justify-between px-3 md:py-8 py-4 mx-auto md:max-w-345">
+      <nav className="w-full flex items-center justify-between px-8 md:py-8 py-4 mx-auto md:max-w-345">
 
         <div className="text-white text-xl font-semibold relative">
           <Link href={"/"}>
@@ -57,7 +57,7 @@ const Navbar = () => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute top-18 right-3 w-56 rounded-2xl bg-white/20 border-white/20 border backdrop-blur-xl shadow-xl p-4 flex flex-col gap-3 md:hidden"
+            className="absolute top-18 right-3 w-56 rounded-2xl bg-black/40 border-white/20 border backdrop-blur-xl shadow-xl p-4 flex flex-col gap-3 md:hidden"
           >
             {/* Home */}
             <Link
@@ -100,7 +100,7 @@ const Navbar = () => {
                     className="overflow-hidden ml-4 flex flex-col"
                   >
                     <Link
-                      href="/services/meta-ads"
+                      href="/meta-ads"
                       className="py-2 text-sm pl-2 rounded-md hover:bg-white/13 text-white duration-300 transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
@@ -108,7 +108,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                      href="/services/google-ads"
+                      href="/google-ads"
                       className="py-2 text-sm pl-2 rounded-md hover:bg-white/13 text-white duration-300 transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
@@ -116,7 +116,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                      href="/services/graphic-design"
+                      href="/graphic-design"
                       className="py-2 text-sm pl-2 rounded-md hover:bg-white/13 text-white duration-300 transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
@@ -124,7 +124,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                      href="/services/website-development"
+                      href="/web-development"
                       className="py-2 text-sm pl-2 rounded-md hover:bg-white/13 text-white duration-300 transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
@@ -132,7 +132,7 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                      href="/services/video-production-editing"
+                      href="/video-editing"
                       className="py-2 text-sm pl-2 rounded-md hover:bg-white/13 text-white duration-300 transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
@@ -195,7 +195,7 @@ const Navbar = () => {
             </Link>
 
             <Button asChild className='rounded-xl py-5 px-5'>
-              <Link href={"/"}>
+              <Link href={"/contact-us"}>
                 Get Started
               </Link>
             </Button>

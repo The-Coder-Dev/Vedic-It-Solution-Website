@@ -1,8 +1,7 @@
 import PageHeader from '@/components/PageHeader'
-import { CanvasRevealEffect } from '@/components/ui/canvas-reveal-effect'
-import { Rocket, Telescope } from 'lucide-react'
+import Team from '@/components/sections/team'
+import { Rocket } from 'lucide-react'
 import Image from 'next/image'
-import React from 'react'
 
 const AboutUs = () => {
   return (
@@ -90,8 +89,8 @@ const AboutUs = () => {
             </div>
 
             {/* Vision */}
-            <div className="flex flex-col">
-              <div className="bg-primary p-8 space-y-6 flex-1 flex flex-col justify-between relative">
+            <div className="flex flex-col gap-3">
+              <div className="bg-primary p-8 gap-10 flex-1 flex flex-col justify-between relative">
                 <div className="space-y-4">
                   <h1 className='text-white text-4xl font-semibold'>Our Vision</h1>
                   <p className='text-neutral-200'>To become the global benchmark for technical excellence where every digital presence is intelligent, human-centric design.</p>
@@ -100,11 +99,18 @@ const AboutUs = () => {
                 <h1 className='text-white/10 text-9xl font-bold absolute -bottom-5 -right-4'>2026</h1>
               </div>
 
-              <div className="flex gap-3">
-                  <CanvasRevealEffect />
+              <div className="w-full flex gap-3 h-50">
+                  <div className="w-full p-5 bg-red-900 text-white flex items-center justify-center">Speed</div>
+                  <div className="w-full p-5 bg-neutral-300 text-black flex items-center justify-center">Trust</div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='w-full h-auto'>
+        <div className="mx-auto max-w-345">
+          <Team />
         </div>
       </section>
     </>

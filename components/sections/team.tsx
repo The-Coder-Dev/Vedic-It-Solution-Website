@@ -148,7 +148,7 @@ const Team = () => {
                   {/* Image Section */}
                   <motion.div
                     variants={imageVariants}
-                    className="relative w-full h-56 md:h-84 overflow-hidden bg-muted"
+                    className="relative w-full h-130 md:h-84 overflow-hidden bg-muted"
                   >
                     <Image
                       src={member.image}
