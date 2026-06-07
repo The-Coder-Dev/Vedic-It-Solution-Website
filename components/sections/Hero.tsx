@@ -28,7 +28,7 @@ const Hero = () => {
                         <div className="flex flex-col gap-4 items-start ">
 
                             <h1 className='text-white text-5xl md:text-8xl uppercase text-left font-semibold'><span className='text-secondary'>More than marketing.</span> <br /> driving growth.</h1>
-                            <p className='text-secondary text-md md:text-shadow-md max-w-sm md:max-w-xl text-left'>Your on-demand AI workforce. Automate routine tasks, streamline decision-making, and free your team to focus on what matters most.</p>
+                            <p className='text-secondary text-md md:text-shadow-md max-w-sm md:max-w-xl text-left'>We help businesses grow through strategic marketing, stunning design, and powerful digital solutions that create lasting impact.</p>
 
                             <div className="flex gap-3 mt-5">
 
