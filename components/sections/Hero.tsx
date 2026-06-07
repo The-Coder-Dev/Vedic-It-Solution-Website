@@ -23,7 +23,7 @@ const Hero = () => {
         <section className='w-full h-[200vh] relative' ref={ref}>
             {/* Hero section */}
             <motion.section style={{y: hero}} className='w-full h-screen relative' >
-                <div className="w-full h-full flex items-end justify-start mx-auto max-w-345 py-20">
+                <div className="w-full h-full flex items-end justify-start mx-auto max-w-345 py-20 relative z-10">
                     <section className='absolute z-99 px-7'>
                         <div className="flex flex-col gap-4 items-start ">
 
@@ -49,17 +49,15 @@ const Hero = () => {
                         </div>
 
                     </section>
-
-                    <Image
-                        src={"/hero.png"}
-                        fill
-                        alt='hero'
-
-                        quality={100}
-                        priority
-                        className='select-none pointer-events-none object-cover'
-                    />
                 </div>
+                <Image
+                    src={"/hero.png"}
+                    fill
+                    alt='hero'
+                    quality={100}
+                    priority
+                    className='select-none pointer-events-none object-cover'
+                />
             </motion.section>
 
             {/* Number Stas  */}
