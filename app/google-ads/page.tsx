@@ -8,7 +8,7 @@ const MetaAds = () => {
             <PageHeader title='Google ads' description="When customers search with buying intent, your business should appear first — and correctly." />
             <section className='w-full mx-auto max-w-345 px-8 py-20'>
                 <div className="mb-16">
-                    <h1 className='text-6xl font-bold uppercase text-black '>What We Manage</h1>
+                    <h1 className='text-3xl md:text-6xl font-bold uppercase text-black '>What We Manage</h1>
                     <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
                         <ServiceInfoCard title='Search Ads' />
                         <ServiceInfoCard title='Display Ads' />
@@ -20,7 +20,7 @@ const MetaAds = () => {
                 </div>
 
                 <div className="mb-16">
-                    <h1 className='text-6xl font-bold uppercase text-black '>Our Approach</h1>
+                    <h1 className='text-3xl md:text-6xl font-bold uppercase text-black '>Our Approach</h1>
                     <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
                         <ServiceInfoCard title='Keyword Intent Mapping' />
                         <ServiceInfoCard title='Competitor CPC Analysis' />
@@ -32,7 +32,7 @@ const MetaAds = () => {
                 </div>
 
                 <div className="mb-16">
-                    <h1 className='text-6xl font-bold uppercase text-black '>We focus on</h1>
+                    <h1 className='text-3xl md:text-6xl font-bold uppercase text-black '>We focus on</h1>
                     <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
                         <ServiceInfoCard title='Cost Per Lead (CPL)' />
                         <ServiceInfoCard title='Quality Score Improvement' />

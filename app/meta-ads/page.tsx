@@ -8,7 +8,7 @@ const MetaAds = () => {
             <PageHeader title='Meta ads' subtitle='Facebook & Instagram Ads' description="Social media is not about boosting posts - it's about structured funnels " />
             <section className='w-full mx-auto max-w-345 px-8 py-20'>
                 <div className="mb-16">
-                    <h1 className='text-6xl font-bold uppercase text-black '>We Build</h1>
+                    <h1 className='text-3xl md:text-6xl font-bold uppercase text-black '>We Build</h1>
                     <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
                         <ServiceInfoCard title='Lead Generation Funnels' />
                         <ServiceInfoCard title='Sales Funnels' />
@@ -20,7 +20,7 @@ const MetaAds = () => {
                 </div>
 
                 <div className="mb-16">
-                    <h1 className='text-6xl font-bold uppercase text-black '>Our Strategy includes</h1>
+                    <h1 className='text-3xl md:text-6xl font-bold uppercase text-black '>Our Strategy includes</h1>
                     <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
                         <ServiceInfoCard title='Audience Psychology Research' />
                         <ServiceInfoCard title='Detailed Interest & Behavior Targeting' />
@@ -31,7 +31,7 @@ const MetaAds = () => {
                 </div>
 
                 <div className="mb-16">
-                    <h1 className='text-6xl font-bold uppercase text-black '>Why we different?</h1>
+                    <h1 className='text-3xl md:text-6xl font-bold uppercase text-black '>Why we different?</h1>
                     <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
                         <ServiceInfoCard title='70% of Ad Success Depends on Targeting, Not Budget' description='Increasing budget without refining audience = wasted money.' />
                         <ServiceInfoCard title='Landing Page Quality Impacts Cost' description='If your landing page is slow or unclear, Google increases your CPC.' />

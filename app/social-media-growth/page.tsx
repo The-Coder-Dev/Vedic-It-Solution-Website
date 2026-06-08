@@ -12,7 +12,7 @@ const MetaAds = () => {
       />
       <section className="w-full mx-auto max-w-345 px-8 py-20">
         <div className="mb-16">
-          <h1 className="text-6xl font-bold uppercase text-black ">
+          <h1 className="text-3xl md:text-6xl font-bold uppercase text-black ">
             Our Social Media Growth Framework
           </h1>
           <p className="mt-5">We don’t randomly post content. We implement a structured growth model:</p>
@@ -80,7 +80,7 @@ const MetaAds = () => {
         </div>
 
         <div className="mb-16">
-          <h1 className="text-6xl font-bold uppercase text-black ">
+          <h1 className="text-3xl md:text-6xl font-bold uppercase text-black ">
             Why Choose Us
           </h1>
           <div className="w-full grid md:grid-cols-3 gap-6 mt-8">
